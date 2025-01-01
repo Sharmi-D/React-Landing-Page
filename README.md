@@ -5,14 +5,14 @@ A simple react application build with [React](https://react.dev/)
 </p>
 
 <p align-item="center">
-<img src="https://github.com/user-attachments/assets/b076e7a4-0d58-41d0-b559-3aee52adb628">
+![yogastudio](https://github.com/user-attachments/assets/0e5b8970-491d-4dad-a38e-9d5baa1ea2a1)
 </p>
 
 Created with create-react-app. see the full [create-react-app guide](https://create-react-app.dev/docs/getting-started/).
 
 ### Demo
 
-> [Live Demo](https://web3forms.com/)
+> [Live Demo](https://sharmi-d.github.io/React-Landing-page/)
 
 ### Prerequests
 
