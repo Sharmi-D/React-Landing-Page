@@ -1,11 +1,11 @@
 ## Seamless User-Centric Yoga Studio Landing Page
 
 <p align-item="center">
-A simple react application build with [React](https://react.dev/)
+A simple react application build with [React](https://react.dev/).
 </p>
 
 <p align-item="center">
-![yogastudio](https://github.com/user-attachments/assets/0e5b8970-491d-4dad-a38e-9d5baa1ea2a1)
+<img src="https://github.com/user-attachments/assets/0e5b8970-491d-4dad-a38e-9d5baa1ea2a1">
 </p>
 
 Created with create-react-app. see the full [create-react-app guide](https://create-react-app.dev/docs/getting-started/).
