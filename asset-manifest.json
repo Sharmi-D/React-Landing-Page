@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/React-Landing-page/static/css/main.31ce4945.css",
+    "main.js": "/React-Landing-page/static/js/main.6fa4155f.js",
+    "static/js/453.e5b00392.chunk.js": "/React-Landing-page/static/js/453.e5b00392.chunk.js",
+    "static/media/bg.jpg": "/React-Landing-page/static/media/bg.bdd81f163d0ff136ae07.jpg",
+    "static/media/instructor-6.jpg": "/React-Landing-page/static/media/instructor-6.530ee2658636975763d4.jpg",
+    "static/media/user2.jpg": "/React-Landing-page/static/media/user2.c28b972143853f5161a5.jpg",
+    "static/media/instructor-2.jpg": "/React-Landing-page/static/media/instructor-2.8693529c8d97e4fa7004.jpg",
+    "static/media/instructor-5.jpg": "/React-Landing-page/static/media/instructor-5.ec3409826d3515cd7a3e.jpg",
+    "static/media/instructor-3.jpg": "/React-Landing-page/static/media/instructor-3.130d02b54fccdd6b3cdb.jpg",
+    "static/media/instructor-1.jpg": "/React-Landing-page/static/media/instructor-1.01c2fdebcc15bef24da5.jpg",
+    "static/media/pose-2.jpeg": "/React-Landing-page/static/media/pose-2.84e1e8c851110e0afb14.jpeg",
+    "static/media/pose-1.jpeg": "/React-Landing-page/static/media/pose-1.2eb624cd3cc504032479.jpeg",
+    "static/media/user4.jpg": "/React-Landing-page/static/media/user4.64daf214a2eeeb6c3ada.jpg",
+    "static/media/user1.jpeg": "/React-Landing-page/static/media/user1.7e913f0b5c446a58c0c7.jpeg",
+    "static/media/instructor-4.jpeg": "/React-Landing-page/static/media/instructor-4.d46c25a4b3dfbd58ecd6.jpeg",
+    "static/media/user3.jpg": "/React-Landing-page/static/media/user3.dccc6da72b9ea00cad61.jpg",
+    "index.html": "/React-Landing-page/index.html",
+    "main.31ce4945.css.map": "/React-Landing-page/static/css/main.31ce4945.css.map",
+    "main.6fa4155f.js.map": "/React-Landing-page/static/js/main.6fa4155f.js.map",
+    "453.e5b00392.chunk.js.map": "/React-Landing-page/static/js/453.e5b00392.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31ce4945.css",
+    "static/js/main.6fa4155f.js"
+  ]
+}
