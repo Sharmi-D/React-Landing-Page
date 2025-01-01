@@ -1,0 +1,29 @@
+
+.benefit-container{
+    padding: 20px 20px;
+    height: auto;
+    width: 100%;
+}
+
+.benefit-container h2{
+    text-shadow: 0 5px 5px rgba(0, 0, 0, .2);
+    padding: 0 10%;
+    cursor: default;
+}
+
+.benefits{
+    padding: 30px 10%;
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 4fr));
+}
+
+.benefits .benefit h3{
+    cursor: default;
+    color: var(--h-color);
+    padding-bottom: 2px;
+}
+
+.benefits .benefit p{
+    font-family: roboto;
+}

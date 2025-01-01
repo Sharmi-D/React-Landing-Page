@@ -1,0 +1,113 @@
+
+.trainer-container{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-block: 10px;
+    background: var(--primary-color);
+}
+
+.trainer-container h2{
+    align-self: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.trainer-container .sub-title{
+    margin: 10px 30%;
+    letter-spacing: .5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.trainer-container .trainer-cards{
+    margin-block: 15px;
+    margin-inline: 20%;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.trainer-container .trainer-cards .card{
+    align-self: center;
+    position: relative;
+    background: #fff;
+    overflow: hidden;
+    cursor: pointer;
+    height: 200px;
+    width: 250px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .2);
+    transition: .5s ease-in-out;
+}
+
+.trainer-container .trainer-cards .card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .5s ease-in-out;
+}
+
+.trainer-container .trainer-cards .card:hover{
+    transform: translateY(0px);
+}
+
+.card .info{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    overflow: hidden;
+    opacity: 0;
+    position: absolute;
+    color: var(--txt-color);
+    background: #1f3d4738;
+    transform: translateY(60px);
+    padding: 90px 10px;
+    text-align: start;
+    transition: .5s all;
+}
+
+.card .info h2{
+    cursor: pointer;
+    color: var(--txt-color);
+    text-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.card .info p{
+    color: var(--txt-color);
+    cursor: pointer;
+}
+
+.trainer-cards .card:hover img{
+    transform: scale(1.1);
+}
+
+.card:hover .info{
+    height: 100%;
+}
+
+.card .info .more-btn{
+    margin-top: 10px;
+    color: var(--txt-color);
+    border: 1px solid var(--txt-color);
+    background: transparent;
+}
+
+.card .info .more-btn:hover{
+    border: transparent;
+}
+
+.card:hover .info{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+
+/* media queries */
+
+@media (max-width: 1080px){
+    .trainer-container .sub-title{
+        margin: 20px 10% ;
+    } 
+}

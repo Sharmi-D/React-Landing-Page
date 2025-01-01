@@ -1,0 +1,23 @@
+
+.arrow{
+    font-size: 1rem;
+    padding: 8px 10px;
+    position: fixed;
+    bottom: 3rem;
+    right: 0;
+    margin-right: .8rem;
+}
+
+.arrow-animation{
+    animation: goTotop 1.5s linear infinite alternate-reverse;
+    
+}
+
+@keyframes goTotop {
+    0%{
+        transform: translateY(-0.5rem);
+    }
+    100%{
+        transform: translateY(.2rem);
+    }
+}

@@ -1,0 +1,172 @@
+
+.testimonial-container{
+   width:100%;
+   height: auto;
+   background: var(--primary-color);
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   padding-block: 10px;
+}
+ 
+.testimonial{
+   position: relative;
+   margin: 10px 80px 0px;
+   padding: 0px 40px;
+}
+ 
+.preview, .next{
+   position: absolute;
+   top: 50%;
+   right: 0;
+   padding: 6px 8px;
+   transform: translateY(-50%);
+}
+ 
+.preview{
+   right: auto;
+   left: 0;
+}
+
+.preview-i,
+.next-i{
+      margin-top: 2px;
+      font-size: 1.3rem;
+}
+
+.preview-i{
+   padding-right: 3px;
+} 
+ 
+.next-i{
+   padding-left: 3px;
+}
+
+.slider{
+   overflow: hidden;
+}
+ 
+.slider ul{
+   display: flex;
+   overflow-x: hidden;
+   width: 250%;
+   transition: .5s;
+}
+ 
+.slider ul li{
+   width: 50%;
+   padding: 20px;
+}
+
+.slider-card{
+   padding: 30px;
+   height: 220px;
+   box-shadow: 0px 2px 10px rgba(0, 0, 0, .5);
+   border-radius: 10px;
+   line-height: 1.4;
+   background: var(--txt-color);
+ }
+
+.slider-card img{
+   width: 65px;
+   height: 65px;
+   object-fit: cover;
+   object-position: center;
+   border-radius: 50%;
+}
+
+.slider-card .user-info{
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+   font-size: 16px;
+   gap: 1rem;
+}
+
+.slider-card  .user-info h3{
+   color: var(--h-color);
+}
+
+.slider-card  .user-info span{
+   color: var(--star-color);
+}
+
+.slider-card  .user-info p{
+   color: var(--primary-color);
+}
+
+
+
+/* media queries */
+
+@media (max-width: 900px){
+   .preview, .next{
+      margin: 0 10px;
+   }
+
+   .testimonial{
+      padding: 0px 1px;
+      margin: 10px 10px;
+   }
+
+   .icon{
+      padding: 4px 6px;
+      font-size: .5rem;
+   }
+
+   .slider {
+      margin: 0 5%;
+   }
+
+   .slider ul li{
+      padding: 10px;
+   }
+
+   .slider-card{
+      padding: 10px;
+      height: 200px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+   }
+
+   .slider-card img{
+      height: 45px;
+      width: 45px;
+   }
+   
+}
+
+
+
+@media (max-width: 540px){
+
+   .preview, .next{
+      margin: 0;
+   }
+
+   .preview-i,
+   .next-i{
+      font-size: 1rem;
+   }
+
+   .testimonial{
+      width: 100%;
+   }
+
+   .slider ul li{
+      padding: 0px 14px;
+   }
+
+   .slider-card{
+      text-align: center;
+      justify-content: center;
+      padding: 15px 8px;
+      height: 450px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+   }
+
+   .slider-card .user-info{
+      display: block;
+      margin-bottom: 12px;
+   }
+
+}

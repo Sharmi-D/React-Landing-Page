@@ -1,13 +1,155 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', Ubuntu;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: #ddd0c865;
+  letter-spacing: .2px;
+  width: 100%;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+:root{
+  --primary-color: #9e7f50ce;
+  --secondary-color: #323232;
+  --third-color: #9b4708;
+  --txt-color: #fffff0;
+  --placeholder-color: #3d3b3bce;
+  --star-color: goldenrod;
+  --h-color: #965d30;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+p{
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.p-txt-1{
+  color: var(--txt-color);
+}
+
+.p-txt-2{
+  color: var(--secondary-color);
+}
+
+li{
+  text-decoration: none;
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+  color: var(--secondary-color);
+}
+
+
+.logo{
+  justify-content: center;
+  text-align: center;
+  cursor: default;
+  text-transform: uppercase;
+}
+
+.logo .name,
+.logo .desc{
+  letter-spacing: .3rem;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+.logo .name{
+  font-size: 24px;
+  color: var(--secondary-color);
+  text-shadow: 0 5px 10px rgba(238, 231, 231, 0.55);
+}
+
+.logo .desc{
+  font-size: 10px;
+  color: var(--txt-color);
+}
+
+.logo-icon{
+  height: 24px;
+  width: 30px;
+}
+
+.btn{
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 2px;
+  display: inline-block;
+  text-align: center;
+  padding: 8px 14px;
+  color: var(--third-color);
+  background: transparent;
+  border: 1px solid var(--third-color);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  z-index: 1;
+  transition: 0.3s ease all;
+}
+
+.btn::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 100%;
+  opacity: 0;
+  background: linear-gradient(to left, var(--primary-color), var(--third-color));
+  z-index: -1;
+  transition: 0.5s ease;
+}
+
+.btn:hover, .btn:focus{
+  color: var(--txt-color);
+  border: 1px solid var(--primary-color);
+}
+
+.btn:hover::before,
+.btn:focus::before{
+  right: 0;
+  opacity: 1;
+  transition: 0.5s ease;
+}
+
+.icon{
+  background: var(--secondary-color);
+  color: var(--txt-color);
+  border-radius: 50%;
+  border: 2px solid var(--secondary-color);
+  cursor: pointer;
+  transition: .3s ease-in;
+  
+}
+
+.icon:hover{
+  background: var(--third-color);
+  border: 2px solid var(--third-color);
+}
+
+.h2-span{
+  background: linear-gradient(to left, var(--primary-color), var(--third-color));
+  width: 40px;
+  height: 4px;
+  display: block;
+  border-radius: 5px;
+  margin-top: 2px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, .2);
 }
